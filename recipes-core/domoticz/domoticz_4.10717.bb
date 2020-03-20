@@ -18,10 +18,7 @@
 #   MQTT/LICENSE.txt
 #
 LICENSE = "GPLv3 & Unknown & LGPLv2.1"
-LIC_FILES_CHKSUM = "file://License.txt;md5=d32239bcb673463ab874e80d47fae504 \
-                    file://www/js/ace/LICENSE;md5=794d11c5219c59c9efa2487c2b4066b2 \
-                    file://MQTT/LICENSE.txt;md5=62ddc846179e908dc0c8efec4a42ef20 \
-                    file://hardware/telldus-core/LICENSE;md5=4fbd65380cdd255951079008b364516c"
+LIC_FILES_CHKSUM = "file://License.txt;md5=d32239bcb673463ab874e80d47fae504"
 
 SRC_URI = " \
   git://github.com/domoticz/domoticz.git;protocol=https \
@@ -29,8 +26,8 @@ SRC_URI = " \
 	"
 
 # Modify these as desired
-PV = "3.8153${SRCPV}"
-SRCREV = "494fff71685f319b25e7824684c299162b19f8c3"
+PV = "4.10717${SRCPV}"
+SRCREV = "be79a17d8baebed5fad1c81d6c11ad71f2dc19c3"
 
 S = "${WORKDIR}/git"
 
